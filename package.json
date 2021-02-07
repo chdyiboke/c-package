@@ -17,7 +17,7 @@
     "start": "webpack serve",
     "build": "npm run build-all",
     "build-all": "npm run es && npm run commonjs && npm run umd",
-    "es": "babel --presets @babel/preset-react src -d es",
+    "es": "babel src -d es",
     "commonjs": "webpack --config webpack-config-commonjs.js",
     "umd": "webpack --config webpack-config-umd.js",
     "test": "echo \"Error: no test specified\" && exit 1"
