@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "umd"),
     filename: 'umd.js',
-    // library: "umd",
+    // library: "CPackage",
     libraryTarget: 'umd'
   },
   module: {
@@ -32,11 +32,6 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['js'],
-    // alias: { 
-    //   React: path.resolve(__dirname, './node_modules/react/'),
-    //   ReactDOM: path.resolve(__dirname, './node_modules/react-dom/')
-    // }
+    extensions: ['.js', '.jsx'],
   }
-  
 };

@@ -5,8 +5,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, "lib"),
-    filename: 'commonjs.js',
-    library: "Demo",
+    filename: 'index.js',
+    library: "CPackage",
     libraryTarget: 'commonjs'
   },
   module: {
@@ -32,7 +32,6 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['js'],
+    extensions: ['.js', '.jsx'], // 在导入时不用扩展名
   }
-  
 };

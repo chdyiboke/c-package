@@ -35,4 +35,11 @@ Q: [webpack-cli] [Error: EROFS: read-only file system, mkdir '/dist']
 A: https://stackoverflow.com/questions/60020217/npm-error-error-erofs-read-only-file-system-mkdir-npm
 
 Q: 引入REACT & 其他文件 其他umd和cjs报错  
-A: 待解决。
+A: [使用户在导入时不用扩展名](https://webpack.js.org/configuration/resolve/#resolveextensions)
+```
+  resolve: {
+    extensions: ['.wasm', '.mjs', '.js', '.json'],
+  },
+```
+
+

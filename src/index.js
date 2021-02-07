@@ -2,7 +2,7 @@
 // import ReactDOM from 'react-dom';
 // import TestComponent from './test.js';
 
-// ReactDOM.render(<CPackage />, document.getElementById('root'));
+// ReactDOM.render(<TestComponent />, document.getElementById('root'));
 // var p = document.createElement('p');
 // p.innerText = 'test123';
 
