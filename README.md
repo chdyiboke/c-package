@@ -1,4 +1,4 @@
-# 搭建组件
+# 组件打包
 ## 目标
 组件打包 esm/cjs/umd
 
@@ -9,7 +9,7 @@ yarn
 // dev 开发
 yarn start
 // 打包所有
-yarn build-all
+yarn build
 ```
 
 ## webpack系列基础
@@ -41,5 +41,3 @@ A: [使用户在导入时不用扩展名](https://webpack.js.org/configuration/r
     extensions: ['.wasm', '.mjs', '.js', '.json'],
   },
 ```
-
-
